@@ -28,7 +28,7 @@
                     "modes": {
                         "value_only": false,
                         "trade_methods": ["downgrade"],
-                        "rap_only_base": true
+                        "rap_only_base": false
                     },
                     "thresholds": {
                         "min_receiving_value_when_downgrading": 1.05,
@@ -69,6 +69,7 @@
         }
     ]
 }
+
 
 
 
