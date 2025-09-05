@@ -26,7 +26,7 @@
                 },
                 "algorithm": {
                     "modes": {
-                        "value_only": false,
+                        "value_only": true,
                         "trade_methods": ["downgrade"],
                         "rap_only_base": false
                     },
@@ -69,6 +69,7 @@
         }
     ]
 }
+
 
 
 
