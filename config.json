@@ -19,32 +19,32 @@
                 }
             },
             "trade": {
-                "sleep_time": 30,
+                "sleep_time": 1,
                 "items": {
-                    "not_for_trade": [],
+                    "not_for_trade": [1744048439, 164204164],
                     "not_accepting": []
                 },
                 "algorithm": {
                     "modes": {
                         "value_only": false,
                         "trade_methods": ["downgrade"],
-                        "rap_only_base": false
+                        "rap_only_base": true
                     },
                     "thresholds": {
-                        "min_receiving_value_when_downgrading": 1.11,
+                        "min_receiving_value_when_downgrading": 1.05,
                         "max_giving_value_when_upgrading": 1.07,
-                        "max_edge_value": 1.15,
-                        "min_trade_send_value_total": 500
+                        "max_edge_value": 1.07,
+                        "min_trade_send_value_total": 4500
                     },
                     "modifiers": {
                         "base_divisor": 1200,
                         "demand_multiplier": 150,
-                        "rare_multiplier": 50,
-                        "lower_rap_only_item": 0.95,
-                        "lower_projected_item": 0
+                        "rare_multiplier": 40,
+                        "lower_rap_only_item": 0.98,
+                        "lower_projected_item": 0.25
                     },
                     "penalties": {
-                        "bulk_penalty_rate": 0.02,
+                        "bulk_penalty_rate": 0.01,
                         "upgrade_penalty_multiplier": 1.10
                     },
                     "performance": {
@@ -69,6 +69,7 @@
         }
     ]
 }
+
 
 
 
