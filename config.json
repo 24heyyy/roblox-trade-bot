@@ -21,7 +21,7 @@
             "trade": {
                 "sleep_time": 1,
                 "items": {
-                    "not_for_trade": [1744048439, 164204164],
+                    "not_for_trade": [1744048439, 164204164, 30328933, 51243561, 46363235, 5786026, 11401152997, 1309918, 91675439, 1609402609, 17408283],
                     "not_accepting": []
                 },
                 "algorithm": {
@@ -34,7 +34,7 @@
                         "min_receiving_value_when_downgrading": 1.05,
                         "max_giving_value_when_upgrading": 1.07,
                         "max_edge_value": 1.07,
-                        "min_trade_send_value_total": 4500
+                        "min_trade_send_value_total": 0
                     },
                     "modifiers": {
                         "base_divisor": 1200,
@@ -69,6 +69,7 @@
         }
     ]
 }
+
 
 
 
