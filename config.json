@@ -21,7 +21,7 @@
             "trade": {
                 "sleep_time": 1,
                 "items": {
-                    "not_for_trade": [1744048439, 164204164, 30328933, 51243561, 46363235, 5786026, 11401152997, 1309918, 91675439, 1609402609, 17408283],
+                    "not_for_trade": [164204164, 30328933, 51243561, 1241181482, 5786026, 1309918, 1310107838, 91675439, 76692331, 1609402609, 5785985, 8853102495, 119040562647325, 2830454962, ],
                     "not_accepting": []
                 },
                 "algorithm": {
@@ -31,9 +31,9 @@
                         "rap_only_base": false
                     },
                     "thresholds": {
-                        "min_receiving_value_when_downgrading": 1.05,
+                        "min_receiving_value_when_downgrading": 1.08,
                         "max_giving_value_when_upgrading": 1.07,
-                        "max_edge_value": 1.07,
+                        "max_edge_value": 1.09,
                         "min_trade_send_value_total": 0
                     },
                     "modifiers": {
@@ -57,7 +57,7 @@
                     },
                     "downgrade": {
                         "min_items": 1,
-                        "max_items": 1
+                        "max_items": 2
                     },
                     "item_ratio_constraints": {
                         "max_item_ratio_upgrade": 0.75,
@@ -69,6 +69,7 @@
         }
     ]
 }
+
 
 
 
